@@ -5,7 +5,7 @@
       "chmod 755 img/",
       "chmod 755 js/",
       "chmod 755 scss/",
-      "chmod 755 vendor/"
+      "chmod -R 755 vendor/"
     ]
   }
 }

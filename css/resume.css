@@ -40,11 +40,12 @@ h2 {
 }
 
 .list-social-icons a {
+  transition: all 0.5s ease;
   color: #495057;
 }
 
 .list-social-icons a:hover {
-  color: #BD5D38;
+  color: #f99100;
 }
 
 .list-social-icons a .fa-lg {
@@ -131,17 +132,33 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #BD5D38 !important;
+  background-color: #305187 !important;
 }
 
 .text-primary {
-  color: #BD5D38 !important;
+  color: #f99100 !important;
 }
 
 a {
-  color: #BD5D38;
+  color: #f99100;
 }
 
 a:hover, a:focus, a:active {
-  color: #824027;
+  color: #ffc700;
+}
+
+.devicons {
+  font-size: 2rem;
+}
+
+.fade {
+  transition: all 0.5s ease;
+  opacity: 1.0;
+  cursor: default;
+}
+.fade:hover
+{
+  opacity: 1.0;
+  color:#f99100;
+  cursor: default;
 }

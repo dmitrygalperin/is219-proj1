@@ -4,8 +4,6 @@
       "chmod 755 css",
       "chmod 755 img",
       "chmod 755 js",
-      "chmod 755 scss",
-      "chmod -R 755 vendor"
     ]
   }
 }
